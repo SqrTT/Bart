@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Upload file to sandbox'
+      'command': 'bart:uploadFile'
+    }
+  ]
+'menu': [
+  {
+      'label': 'DW Bart'
+      'submenu': [
+        {
+          'label': 'Upload all cartridges'
+          'command': 'bart:uploadAll'
+        }, {
+          'label': 'Open config'
+          'command': 'bart:openConfig'
+        }
+      ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "Bart",
+  "main": "./lib/bart",
+  "version": "0.0.1",
+  "description": "demandware file uploader",
+  "keywords": [
+    "demandware"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "bart:uploadAll",
+      "bart:uploadFile",
+      "bart:openConfig"
+    ]
+  },
+  "repository": "https://github.com/SqrTT/bart",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.11.0",
+    "request": "^2.71.0",
+    "xml-parser": "^1.2.1"
+  }
+}
