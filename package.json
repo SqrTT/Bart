@@ -21,6 +21,9 @@
   "dependencies": {
     "lodash": "^4.11.0",
     "request": "^2.71.0",
-    "xml-parser": "^1.2.1"
+    "rimraf": "^2.5.2",
+    "walk": "^2.3.9",
+    "xml-parser": "^1.2.1",
+    "yazl": "^2.3.0"
   }
 }

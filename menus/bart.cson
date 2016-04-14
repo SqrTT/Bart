@@ -8,7 +8,7 @@
   ]
 'menu': [
   {
-      'label': 'DW Bart'
+      'label': 'Bart'
       'submenu': [
         {
           'label': 'Upload all cartridges'
