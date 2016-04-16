@@ -1,6 +1,6 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
-  'atom-text-editor': [
+  'atom-text-editor:not(.mini)': [
     {
       'label': 'Upload file to sandbox'
       'command': 'bart:uploadFile'
@@ -14,7 +14,7 @@
           'label': 'Upload all cartridges'
           'command': 'bart:uploadAll'
         }, {
-          'label': 'Open config'
+          'label': 'Open settings...'
           'command': 'bart:openConfig'
         }
       ]
