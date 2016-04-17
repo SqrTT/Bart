@@ -19,6 +19,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "chokidar": "^1.4.3",
     "lodash": "^4.11.0",
     "request": "^2.71.0",
     "rimraf": "^2.5.2",
