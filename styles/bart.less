@@ -5,4 +5,23 @@
 @import "ui-variables";
 
 .bart {
+
+}
+
+
+atom-text-editor::shadow {
+  .gutter .line-number {
+      &.bart-stop-line:before {
+        content: ">";
+        color: @text-color
+      }
+
+      &.node-debugger-attached-breakpoint {
+        background-color: #F00;
+      }
+
+      &.bart-breakpoint {
+        background-color: #FF850B;
+      }
+  }
 }

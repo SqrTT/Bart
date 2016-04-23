@@ -2,8 +2,11 @@
 'context-menu':
   'atom-text-editor:not(.mini)': [
     {
-      'label': 'Upload file to sandbox'
+      'label': 'Bart: Upload file to sandbox'
       'command': 'bart:uploadFile'
+    }, {
+        'label': 'Bart: Toggle Breakpoint'
+        'command': 'bart:toggleBreakpoint'
     }
   ]
 'menu': [
@@ -16,6 +19,9 @@
         }, {
           'label': 'Open settings...'
           'command': 'bart:openConfig'
+        }, {
+          'label': 'Open/Close Debugger'
+          'command': 'bart:toggleDebugger'
         }
       ]
   }

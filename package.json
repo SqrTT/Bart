@@ -10,7 +10,9 @@
     "atom-workspace": [
       "bart:uploadAll",
       "bart:uploadFile",
-      "bart:openConfig"
+      "bart:openConfig",
+      "bart:toggleDebugger",
+      "bart:toggleBreakpoint"
     ]
   },
   "repository": "https://github.com/SqrTT/bart",

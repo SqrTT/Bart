@@ -6,7 +6,9 @@ request.debug = true;
 import DebuggerConnection from "../lib/DebuggerConnection";
 
 const credentials = {
-
+    username: 'a.obitskyi',
+    password: 'PassPass5_',
+    hostname: 'dev07-web-anyahindmarch.demandware.net'
 };
 
 describe('Debugger', () => {
