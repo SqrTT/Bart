@@ -23,6 +23,8 @@
   "dependencies": {
     "chokidar": "^1.4.3",
     "lodash": "^4.11.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
     "request": "^2.71.0",
     "rimraf": "^2.5.2",
     "walk": "^2.3.9",
