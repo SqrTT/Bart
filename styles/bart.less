@@ -12,11 +12,13 @@
 }
 
 .b-bart_variables {
-    float: right;;
+    float: left;;
 }
 .b-bart_parent_stack {
     float: left;;
 }
+
+
 
 
 atom-text-editor::shadow {
@@ -31,7 +33,11 @@ atom-text-editor::shadow {
       }
 
       &.bart-breakpoint {
-        background-color: #FF850B;
+        background-color: @background-color-warning;
       }
+
+  }
+  .bart-breakpoint_active {
+      background-color: @ui-site-color-5;
   }
 }
