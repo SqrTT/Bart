@@ -9,3 +9,8 @@
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
   'f9': 'bart:toggleBreakpoint'
+  'f12': 'bart:toggleDebugger'
+  'shift-f5': 'bart:r:stop'
+  'f10': 'bart:step-next'
+  'f11': 'bart:step-in'
+  'shift-f11': 'bart:step-out'
