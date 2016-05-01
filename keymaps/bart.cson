@@ -10,7 +10,7 @@
 'atom-workspace':
   'f9': 'bart:toggleBreakpoint'
   'f12': 'bart:toggleDebugger'
-  'shift-f5': 'bart:r:stop'
-  'f10': 'bart:step-next'
-  'f11': 'bart:step-in'
-  'shift-f11': 'bart:step-out'
+  'f8' : 'bart:resume'
+  'f10': 'bart:stepover'
+  'f11': 'bart:stepin'
+  'shift-f11': 'bart:stepout'
