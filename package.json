@@ -40,10 +40,6 @@
     "url": "https://github.com/SqrTT/bart/issues"
   },
   "homepage": "https://github.com/SqrTT/bart#readme",
-  "_id": "Bart@1.1.0",
-  "_shasum": "80609bd3a03c681599b4fd748cd358578a4e0373",
-  "_resolved": "file:../d-11643-22633-gaxyik/package.tgz",
-  "_from": "../d-11643-22633-gaxyik/package.tgz",
   "devDependencies": {
     "eslint": "^2.9.0",
     "eslint-plugin-react": "^5.0.1"
