@@ -1,7 +1,7 @@
 {
   "name": "Bart",
   "main": "./lib/bart",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "demandware file uploader",
   "keywords": [
     "demandware"
@@ -15,10 +15,13 @@
       "bart:toggleBreakpoint"
     ]
   },
-  "repository": "https://github.com/SqrTT/bart",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SqrTT/bart.git"
+  },
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.7.0 <2.0.0"
   },
   "dependencies": {
     "chokidar": "^1.4.3",
@@ -30,5 +33,19 @@
     "walk": "^2.3.9",
     "xml-parser": "^1.2.1",
     "yazl": "^2.3.0"
+  },
+  "readme": "\n# Bart\n\nDemandware file uploader & script debugger\n\n\n### Usage\n\nAfter installing Bart package, in Atom appear additional item in main menu with same name `Bart`. This item contain three subitems:\n\n* Upload all cartridges - actually upload all cartridges to the sandbox (zip, upload and unzip on SB). Currently only first folder in project will be uploaded.\n* Open settings... - Opens configuration of current sandbox like a hostname, username, password, codeversion and list of files that should be watched. Last option is used to watch files that should be uploaded to SB when change by some other program i.e. on build and minify by gulp/grant, and  is not opened in IDE. Each file should have absolute path and can end by mask i.e. `/.../cartridges/app_core/cartridge/static/default/js/*`\n* Open/close debugger - simply toggle debugger's panel.\n\nTo start debug you heed to set breakpoint first. To do so, just open file set text cursor in required place and press F9. After breakpoint is set open in browser required page. You will see that page is loading too long. So it's time to press `Manual Update` button in debugger panel (last button in row). After that you should see stack trace and list of variables.\nOther buttons should be obvious.\n\nAlso in context menu of file/editor you will see two additional items: upload file and toggle breakpoint.\n\n\nIt's recommended to install also [language-demandware](https://atom.io/packages/language-demandware) for syntax highlight of Demandware files.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/SqrTT/bart/issues"
+  },
+  "homepage": "https://github.com/SqrTT/bart#readme",
+  "_id": "Bart@1.1.0",
+  "_shasum": "80609bd3a03c681599b4fd748cd358578a4e0373",
+  "_resolved": "file:../d-11643-22633-gaxyik/package.tgz",
+  "_from": "../d-11643-22633-gaxyik/package.tgz",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-plugin-react": "^5.0.1"
   }
 }
