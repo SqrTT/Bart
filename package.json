@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "chokidar": "^1.4.3",
+    "dwdav": "^2.1.0",
     "lodash": "^4.11.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
