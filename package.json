@@ -6,15 +6,6 @@
   "keywords": [
     "demandware"
   ],
-  "activationCommands": {
-    "atom-workspace": [
-      "bart:uploadAll",
-      "bart:uploadFile",
-      "bart:openConfig",
-      "bart:toggleDebugger",
-      "bart:toggleBreakpoint"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SqrTT/bart.git"
