@@ -1,7 +1,7 @@
 {
   "name": "Bart",
   "main": "./lib/bart",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "demandware file uploader",
   "keywords": [
     "demandware"
