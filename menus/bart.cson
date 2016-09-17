@@ -22,6 +22,9 @@
         }, {
           'label': 'Open/Close Debugger'
           'command': 'bart:toggleDebugger'
+        },{
+          'label': 'Create New Cartridge'
+          'command': 'bart:createNewCartridge'
         }
       ]
   }
