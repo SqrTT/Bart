@@ -12,7 +12,8 @@
       "bart:uploadFile",
       "bart:openConfig",
       "bart:toggleDebugger",
-      "bart:toggleBreakpoint"
+      "bart:toggleBreakpoint",
+      "bart:openCreateNewCartridgeView"
     ]
   },
   "repository": {
