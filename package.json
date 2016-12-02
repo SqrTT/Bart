@@ -1,7 +1,7 @@
 {
   "name": "Bart",
   "main": "./lib/bart",
-  "version": "1.2.1",
+  "version": "1.4.0",
   "description": "demandware file uploader",
   "keywords": [
     "demandware"
@@ -12,7 +12,8 @@
       "bart:uploadFile",
       "bart:openConfig",
       "bart:toggleDebugger",
-      "bart:toggleBreakpoint"
+      "bart:toggleBreakpoint",
+      "bart:openCreateNewCartridgeView"
     ]
   },
   "repository": {

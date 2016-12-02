@@ -107,13 +107,13 @@
         ],
         "linebreak-style": [
             "error",
-            "unix"
+            "windows"
         ],
         "lines-around-comment": "off",
         "max-depth": "error",
         "max-len": "off",
         "max-nested-callbacks": "error",
-        "max-params": "error",
+        "max-params": ["error", 4],
         "max-statements": "off",
         "max-statements-per-line": "off",
         "new-cap": "error",
@@ -211,7 +211,6 @@
         "no-useless-escape": "error",
         "no-var": "off",
         "no-void": "error",
-        "no-warning-comments": "error",
         "no-whitespace-before-property": "error",
         "no-with": "error",
         "object-curly-spacing": [
