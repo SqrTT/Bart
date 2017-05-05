@@ -16,6 +16,13 @@
       "bart:openCreateNewCartridgeView"
     ]
   },
+  "consumedServices": {
+    "busy-signal": {
+      "versions": {
+        "1.0.0": "consumeSignal"
+      }
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SqrTT/bart.git"
