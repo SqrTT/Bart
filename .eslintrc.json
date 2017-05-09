@@ -21,10 +21,9 @@
         "html"
     ],
     "rules": {
-        "no-undef-init": "error",
+        "no-undef-init": 2,
         "no-undefined": "off",
         "no-console": "off",
-
         "accessor-pairs": "error",
         "array-bracket-spacing": [
             "error",
