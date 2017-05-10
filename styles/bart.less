@@ -12,7 +12,7 @@
 }
 .b-bart-options {
     max-height: 600px;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .b-bart_variables {
@@ -27,8 +27,48 @@
 .bart_pad_tree {
     padding-left: 15px;
 }
-
-
+.bart-password {
+    font-size: 1.15em;
+    line-height: 2em;
+    border-radius: 3px;
+    color: @text-color;
+    border: 1px solid @input-border-color;
+    background-color: @input-background-color;
+    width: 100%;
+}
+.bart-tabscontainer {
+    border-bottom: 5px solid;;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    height:40px;
+}
+.bart__tabs {
+    position: relative;
+    background-color: @tab-background-color;
+    border: solid 2px @tab-border-color;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 5px 0 0 0;
+    max-width: 25%;
+    height: auto;
+    padding: 7px;
+    cursor: default;
+    &--active {
+        background-color: @tab-background-color-active;
+        border-color: @button-background-color-selected;
+    }
+}
+.bart__containers {
+    max-height: 525px;
+    overflow-y: scroll;
+    width: 100%;
+    display: none;
+    margin-bottom: 5px;
+    border-bottom: 5px solid;
+    &--active {
+        display: block;
+    }
+}
 
 
 atom-text-editor.editor {
