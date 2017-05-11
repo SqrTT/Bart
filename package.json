@@ -31,7 +31,7 @@
     "xml-parser": "^1.2.1",
     "yazl": "^2.4.2"
   },
-  "description": "demandware file uploader",
+  "description": "demandware file uploader and debugger",
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.0"
