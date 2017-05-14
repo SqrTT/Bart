@@ -53,5 +53,9 @@
     "type": "git",
     "url": "git+https://github.com/SqrTT/bart.git"
   },
+<<<<<<< HEAD
   "version": "1.6.0"
+=======
+  "version": "1.7.1"
+>>>>>>> f125783bd4bceec2abbff4405aac398289c2d9a3
 }
