@@ -3,6 +3,8 @@
 
 Demandware file uploader & script debugger
 
+# Out of maintenance (due to lack of time)
+Alternative could be [VS Code](https://code.visualstudio.com/) with [Prophet](https://marketplace.visualstudio.com/items?itemName=SqrTT.prophet)
 
 ### Usage
 
